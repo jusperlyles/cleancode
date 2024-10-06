@@ -1,0 +1,55 @@
+body{
+    background-color:aqua;
+    display: grid;
+    place-items: center;
+}
+a{
+ text-decoration-line: none;
+}
+label{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(234, 38, 38);
+}
+p{
+    color: rgb(69, 59, 59);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.images{
+display: flex;
+height:60vh;
+display:flex;
+cursor: pointer;
+justify-content: space-around;
+flex-direction:column;
+
+}
+image{
+    background-position: cover;
+    width:50px;
+}
+.buttons{
+    height:60px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    width: 100px;
+    border-radius: 10px;
+    border:none;
+    font-weight: 900;
+    font-size: 1.3rem;
+    background-color: rgb(220, 17, 51);
+    color: yellow;
+    cursor:pointer;
+}
+button:active{
+    color: black;
+    background-color: yellow;
+}
+button:hover{
+    opacity: 0.7;
+    transition: opacity 1s;
+}

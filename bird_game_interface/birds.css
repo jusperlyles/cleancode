@@ -1,0 +1,81 @@
+body{
+    background-color: #3b3636;
+    background-image: url(/gameCharacters/cloug_backgroun.jpg);
+    background-position:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-shrink:none;
+    max-height: 100vh;
+    background-color: rgb(208, 176, 168);
+    text-align: center;  
+    font-size: larger;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+#play{
+    margin-top: 10px;
+    height:50px;
+    width:150px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border:none;
+    font-size:large;
+    font-weight: bold;
+    background-color: rgb(255, 213, 0);
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+.btns{
+    color: white;
+    background-color: rgb(61, 61, 225);
+    border:none;
+    margin-top: 20px;
+    height:40px;
+    width:100px;
+    border-radius: 20px; 
+   
+}
+button:hover{
+opacity:0.8;
+cursor:pointer;
+}
+#play:active{
+    background-color: red;
+    color:yellow;
+}
+.btns:active{
+  background-color: rgb(184, 134, 231);
+    color: yellow;
+}
+a{
+  text-decoration:orange;
+}
+label{
+    width:100%;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(227, 81, 81);
+    text-shadow: 2px 2px 1px yellow;
+    cursor:none;
+}
+
+/* CHARACTERS */
+.eagle{
+    margin-top: -30px;
+    width:300px;
+    border-image-repeat: none;
+
+}
+.logo{
+    width: 50px;
+    height: 40px;
+    image-orientation: 200deg;
+    margin-left: 800px;
+    border-radius: 10px;
+}
+
